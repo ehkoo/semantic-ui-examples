@@ -1,14 +1,73 @@
 <!doctype html>
-<html>
-  <title>Semantic UI examples</title>
+<html class="no-js">
 <head>
+    <meta charset="utf-8">
+    <title>Semantic UI examples</title>
+    <meta name="description" content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/css/semantic.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <main class="ui page grid">
+        <div class="row">
+            <div class="column">
+                <h1 class="ui red header">Semantic UI examples</h1>
+                <p>The goal of this project is to provide example pages built in Semantic UI, in a similiar way to Twitter Bootstrap 3. Most of them are directly converted from Twitter Bootstrap 3's couterpart.</p>
+            </div>
+        </div>
 
-<ul>
-  <li><a href="/starter" title="">Starter</a></li>
-  <li><a href="/theme" title="">Theme</a></li>
-</ul>
+        <div class="row">
+            <div class="column">
+                <div class="ui items">
 
+                    <div class="item">
+                        <div class="image">
+                            <img src="./_images/starter.png">
+                            <div class="like ui corner label">
+                                <i class="like icon"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="name"><a href="./starter">Starter template</a></div>
+                            <p class="description">Nothing but the basics: compiled CSS and JavaScript along with a container.</p>
+                        </div>
+                    </div> <!-- Starter -->
+                    
+                    <div class="item">
+                        <div class="image">
+                            <img src="./_images/theme.png">
+                            <div class="like ui corner label">
+                                <i class="like icon"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="name"><a href="./theme">Theme</a></div>
+                            <p class="description">Visually enhanced experience</p>
+                        </div>
+                    </div> <!-- Theme -->
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- GA start -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-40224454-1', 'ehkoo.github.io');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- GA end -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/javascript/semantic.min.js"></script>
 </body>
 </html>

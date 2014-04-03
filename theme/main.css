@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 60px;
+}
+
+.ui .column .main{
+	margin-top: 30px;
+	padding: 50px;
+}
+
+.ui .column .main h1{
+	font-size: 50px;
+}
+
+.ui .column .main p{
+	font-size: 20px;
+}
+
+.m-top-20{
+	margin-top: 20px;
+}
+
+.button-control a{
+	text-transform: capitalize !important;
+}
+
+.primary{
+	background-color: #2d6ca2 !important;
+}
+
+.warning-2{
+	background-color: #ec971f !important;
+}
+
+.small .button{
+	padding: 10px 20px;
+	font-size: 14px;
+}
+
+.smaller .button{
+	padding: 8px 16px;
+	font-size: 12px;
+}
+
+.smallest .button{
+	padding: 6px 12px;
+	font-size: 10px;
+}
+
+.img-thumbnail{
+	padding: 4px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.panel{
+	font-size: 14px !important;
+}
+
+.panel .header{
+	margin: 5px;
+}

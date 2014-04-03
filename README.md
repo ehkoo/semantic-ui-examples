@@ -5,7 +5,7 @@ An attempt to convert all exampes of
 to [Semantic UI](http://semantic-ui.com)
 
 Demo: 
-[https://gitter.im/ehkoo/semantic-ui-examples](https://gitter.im/ehkoo/semantic-ui-examples)
+[https://ehkoo.github.io/semantic-ui-examples](https://ehkoo.github.io/semantic-ui-examples)
 
 If you want some fun -> 
 [https://gitter.im/ehkoo/semantic-ui-examples](https://gitter.im/ehkoo/semantic-ui-examples)

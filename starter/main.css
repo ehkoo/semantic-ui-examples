@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+}
+
+.ui.menu .item {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.column.starter {
+    padding: 40px 15px;
+}

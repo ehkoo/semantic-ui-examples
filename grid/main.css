@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 50px 0;
+}
+
+.column-addon{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #eee;
+	background-color: rgba(86,61,124,.15);
+	border: 1px solid #ddd;
+	border: 1px solid rgba(86,61,124,.2);
+}
+
+.m-top-10{
+	margin-top: 10px !important;
+}

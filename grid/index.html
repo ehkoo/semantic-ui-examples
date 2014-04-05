@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Grid</title>
+    <meta name="description" content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/css/semantic.min.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- endbuild -->
+</head>
+<body>
+    <main class="ui page grid">
+        <div class="row">
+            <div class="column">
+                <h1 class="ui header">Semantic-UI grid examples</h1>
+                <p>Basic grid layouts to get you familiar with building within the Semantic-UI grid system.</p>
+                <div class="ui divider"></div>
+                <h1 class="ui medium header">Three equal columns</h1>
+                <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
+                <div class="ui three column grid">
+                    <div class="column column-addon">.col-md-4</div>
+                    <div class="column column-addon">.col-md-4</div>
+                    <div class="column column-addon">.col-md-4</div>
+                </div>
+                <h1 class="ui medium header">Three unequal columns</h1>
+                <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
+                <div class="ui three column grid">
+                    <div class="four wide column column-addon">.col-md-3</div>
+                    <div class="eight wide column column-addon">.col-md-6</div>
+                    <div class="four wide column column-addon">.col-md-3</div>
+                </div>
+                <h1 class="ui medium header">Two columns</h1>
+                <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
+                <div class="ui two column grid">
+                    <div class="eleven wide column column-addon">.col-md-8</div>
+                    <div class="five wide column column-addon">.col-md-4</div>
+                </div>
+                <h1 class="ui medium header">Full width, single column</h1>
+                <p>No grid classes are necessary for full-width elements.</p>
+                <div class="ui section divider"></div>
+                <div class="ui medium header">Two columns with two nested columns</div>
+                <p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns starting at desktops and scaling to large desktops, with another two (equal widths) within the larger column.</p>
+                <p class="m-top-10">At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
+                <div class="ui two column grid">
+                    <div class="eleven wide column column-addon">   
+                        .col-md-8
+                        <div class="ui two column grid">
+                            <div class="eight wide column column-addon">.col-md-6</div>
+                            <div class="eight wide column column-addon">.col-md-6</div>
+                        </div>
+                    </div>
+                    <div class="five wide column column-addon">.col-md-4</div>
+                </div>
+                <div class="ui section divider"></div>
+                <h1 class="ui medium header">Mixed: mobile and desktop</h1>
+                <p>The Semantic grid system has four tiers of classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+                <p class="m-top-10">Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
+                <div class="ui grid m-top-10">
+                    <div class="two column computer only row">
+                        <div class="eleven wide column column-addon">.col-md-8 .col-xs-12</div>
+                        <div class="five wide column column-addon">.col-md-4 .col-xs-6</div>
+                    </div>
+                    <div class="column mobile only row">
+                        <div class="column column-addon">.col-xs-12 .col-md-8</div>
+                    </div>
+                    <div class="column mobile only row">
+                        <div class="eight wide column column-addon">.col-xs-6 .col-md-4</div>
+                    </div>
+                    <div class="three column computer only row">
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                    </div>
+                    <div class="two column mobile only row">
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                    </div>
+                    <div class="column mobile only row">
+                        <div class="eight wide column column-addon">.col-xs-6 .col-md-4</div>
+                    </div>
+                    <div class="two column computer only row">
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                    </div>
+                    <div class="two column mobile only row">
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                    </div>
+                </div>
+                <div class="ui section divider"></div>
+                <h1 class="ui medium header">Mixed: mobile, tablet, and desktop</h1>
+                <div class="ui grid">
+                    <div class="two column computer only row">
+                        <div class="eleven wide column column-addon">.col-xs-12 .col-sm-6 .col-lg-8</div>
+                        <div class="five wide column column-addon">.col-xs-6 .col-lg-4</div>
+                    </div>
+                    <div class="three column computer only row">
+                        <div class="column column-addon">.col-xs-6 .col-sm-4</div>
+                        <div class="column column-addon">.col-xs-6 .col-sm-4</div>
+                        <div class="column column-addon">.col-xs-6 .col-sm-4</div>
+                    </div>
+                    <div class="column mobile only row">
+                        <div class="column column-addon">.col-xs-12 .col-md-8</div>
+                    </div>
+                    <div class="column mobile only row">
+                        <div class="eight wide column column-addon">.col-xs-6 .col-md-4</div>
+                    </div>
+                    <div class="two column mobile only row">
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                    </div>
+                    <div class="column mobile only row">
+                        <div class="eight wide column column-addon">.col-xs-6 .col-md-4</div>
+                    </div>
+                </div>
+                <div class="ui section divider"></div>
+                <h1 class="ui medium header">Column clearing</h1>
+                <p>Clear floats at specific breakpoints to prevent awkward wrapping with uneven content.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/javascript/semantic.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+</body>
+</html>

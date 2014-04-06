@@ -20,3 +20,7 @@ body{
 .m-top-10{
 	margin-top: 10px !important;
 }
+
+.hidden{
+	opacity: 0;
+}

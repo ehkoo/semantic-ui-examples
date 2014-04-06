@@ -28,22 +28,22 @@
                 <h1 class="ui medium header">Three equal columns</h1>
                 <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
                 <div class="ui three column grid">
-                    <div class="column column-addon">.col-md-4</div>
-                    <div class="column column-addon">.col-md-4</div>
-                    <div class="column column-addon">.col-md-4</div>
+                    <div class="column column-addon">.column</div>
+                    <div class="column column-addon">.column</div>
+                    <div class="column column-addon">.column</div>
                 </div>
                 <h1 class="ui medium header">Three unequal columns</h1>
-                <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
+                <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to sixteen for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
                 <div class="ui three column grid">
-                    <div class="four wide column column-addon">.col-md-3</div>
-                    <div class="eight wide column column-addon">.col-md-6</div>
-                    <div class="four wide column column-addon">.col-md-3</div>
+                    <div class="four wide column column-addon">.four .wide .column</div>
+                    <div class="eight wide column column-addon">.eight .wide .column</div>
+                    <div class="four wide column column-addon">.four .wide .column</div>
                 </div>
                 <h1 class="ui medium header">Two columns</h1>
                 <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
                 <div class="ui two column grid">
-                    <div class="eleven wide column column-addon">.col-md-8</div>
-                    <div class="five wide column column-addon">.col-md-4</div>
+                    <div class="ten wide column column-addon">.ten .wide. column</div>
+                    <div class="six wide column column-addon">.six .wide .column</div>
                 </div>
                 <h1 class="ui medium header">Full width, single column</h1>
                 <p>No grid classes are necessary for full-width elements.</p>
@@ -62,70 +62,79 @@
                     <div class="five wide column column-addon">.col-md-4</div>
                 </div>
                 <div class="ui section divider"></div>
-                <h1 class="ui medium header">Mixed: mobile and desktop</h1>
-                <p>The Semantic grid system has four tiers of classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
-                <p class="m-top-10">Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
+                <h1 class="ui medium header">Mixed: mobile and computer</h1>
+                <p>The Semantic grid system has three tiers of classes: mobile (phones), tablet (tablets), computer (desktops and larger desktops). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+                <p class="m-top-10">Breakpoints are 768px and below for mobile, 768-992px for tablet and 992px+ for computer.</p>
+                <p class="m-top-10">In these cases below, we'd like to recommend you to change size of your viewport or use right devices for responsiveness experience.</p>
                 <div class="ui grid m-top-10">
                     <div class="two column computer only row">
-                        <div class="eleven wide column column-addon">.col-md-8 .col-xs-12</div>
-                        <div class="five wide column column-addon">.col-md-4 .col-xs-6</div>
+                        <div class="ten wide column column-addon">.ten .wide .column .computer .only</div>
+                        <div class="six wide column column-addon">.six .wide .column .computer .only</div>
                     </div>
                     <div class="column mobile only row">
-                        <div class="column column-addon">.col-xs-12 .col-md-8</div>
+                        <div class="column column-addon">.column .mobile .only</div>
                     </div>
                     <div class="column mobile only row">
-                        <div class="eight wide column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="eight wide column column-addon">.eight .wide .column .mobile .only</div>
                     </div>
                     <div class="three column computer only row">
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.column .computer .only</div>
+                        <div class="column column-addon">.column .computer .only</div>
+                        <div class="column column-addon">.column .computer .only</div>
                     </div>
                     <div class="two column mobile only row">
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.column .mobile .only</div>
+                        <div class="column column-addon">.column .mobile .only</div>
                     </div>
                     <div class="column mobile only row">
-                        <div class="eight wide column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="eight wide column column-addon">.column .mobile .only</div>
                     </div>
-                    <div class="two column computer only row">
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
-                    </div>
-                    <div class="two column mobile only row">
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                    <div class="two column row">
+                        <div class="column column-addon">.column</div>
+                        <div class="column column-addon">.column</div>
                     </div>
                 </div>
                 <div class="ui section divider"></div>
-                <h1 class="ui medium header">Mixed: mobile, tablet, and desktop</h1>
+                <h1 class="ui medium header">Mixed: mobile, tablet, and computer</h1>
                 <div class="ui grid">
                     <div class="two column computer only row">
-                        <div class="eleven wide column column-addon">.col-xs-12 .col-sm-6 .col-lg-8</div>
-                        <div class="five wide column column-addon">.col-xs-6 .col-lg-4</div>
+                        <div class="ten wide column column-addon">.ten .wide .column .computer .only</div>
+                        <div class="six wide column column-addon">.six .wide .column .computer .only</div>
                     </div>
-                    <div class="three column computer only row">
-                        <div class="column column-addon">.col-xs-6 .col-sm-4</div>
-                        <div class="column column-addon">.col-xs-6 .col-sm-4</div>
-                        <div class="column column-addon">.col-xs-6 .col-sm-4</div>
-                    </div>
-                    <div class="column mobile only row">
-                        <div class="column column-addon">.col-xs-12 .col-md-8</div>
+                    <div class="two column tablet only row">
+                        <div class="column column-addon">.column .tablet .only</div>
+                        <div class="column column-addon">.column .tablet .only</div>
                     </div>
                     <div class="column mobile only row">
-                        <div class="eight wide column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.column .mobile .only</div>
+                    </div>
+                    <div class="column mobile only row">
+                        <div class="eight wide column column-addon">.eight .wide .column .mobile .only</div>
                     </div>
                     <div class="two column mobile only row">
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
-                        <div class="column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="column column-addon">.column .mobile .only</div>
+                        <div class="column column-addon">.column .mobile .only</div>
                     </div>
                     <div class="column mobile only row">
-                        <div class="eight wide column column-addon">.col-xs-6 .col-md-4</div>
+                        <div class="eight wide column column-addon">.column .mobile .only</div>
+                    </div>
+                    <div class="three column computer tablet only row">
+                        <div class="column column-addon">.column .computer .tablet .only</div>
+                        <div class="column column-addon">.column .computer .tablet .only</div>
+                        <div class="column column-addon">.column .computer .tablet .only</div>
                     </div>
                 </div>
                 <div class="ui section divider"></div>
-                <h1 class="ui medium header">Column clearing</h1>
-                <p>Clear floats at specific breakpoints to prevent awkward wrapping with uneven content.</p>
+                <h1 class="ui medium header">Offset, push, and pull resets</h1>
+                <p>Semantic-UI's currently not support offset, push, pull for columns. Though, we can simply apply hidden attribute to a column for offsetting purpose.</p>
+                <p class="m-top-10">In the case below the second column is hidden itself.</p>
+                <div class="ui grid m-top-10">
+                    <div class="three column row">
+                        <div class="six wide column column-addon">.six .wide .column</div>
+                        <div class="four wide column column-addon hidden"></div>
+                        <div class="six wide column column-addon">.six .wide .column</div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

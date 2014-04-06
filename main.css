@@ -1,0 +1,9 @@
+body {font-family: 'Open Sans', serif;}
+/* links */
+a {
+  color: #AB1111;
+  text-decoration: none;
+}
+a:hover {
+  color: #C20E0E;
+}

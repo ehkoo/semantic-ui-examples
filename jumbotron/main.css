@@ -8,6 +8,10 @@ body{
 	margin-bottom: 60px;
 }
 
+.m-b-reset{
+	margin-bottom: 0px !important;
+}
+
 .padding-reset{
 	padding: 0px !important;
 }

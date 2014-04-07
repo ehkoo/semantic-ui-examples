@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 60px;
+}
+
+.padding-reset{
+	padding: 0px !important;
+}
+
+.ui .message{
+	padding-top: 30px !important;
+	padding-bottom:  50px !important;
+}
+
+.m-top-10{
+	margin-top: 10px !important;
+}
+
+.hidden{
+	opacity: 0;
+}
+
+.ui .button{
+	text-transform: capitalize;
+}

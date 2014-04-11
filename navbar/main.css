@@ -19,3 +19,12 @@ body{
 .ui.message{
 	padding: 40px !important;
 }
+
+@media (max-width: 767px) {
+  	.ui.active.navbar.sidebar{
+	    height: 100% !important;
+	    margin-top: 90px !important;
+	    margin-left: 26px !important;
+		width: 92% !important;
+	}
+}

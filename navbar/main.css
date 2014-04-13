@@ -21,10 +21,16 @@ body{
 }
 
 @media (max-width: 767px) {
-  	.ui.active.navbar.sidebar{
-	    height: 100% !important;
-	    margin-top: 90px !important;
-	    margin-left: 26px !important;
-		width: 92% !important;
+  	.ui.inverted.navbar{
 	}
+}
+
+.ui.vertical.menu{
+	margin-top: -15px !important;
+	width: 100%;
+	display: hidden;
+}
+
+.hidden{
+	display: none;
 }

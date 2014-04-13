@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	var navbar = $('.ui.sidebar.navbar')
-    .sidebar({overlay: true})
-    .sidebar('attach events', '.menu.item');
+	$('.reorder.icon').on("click",function(){
+		$('.ui.vertical.menu').toggle();
+	});
 	$('.ui.dropdown').dropdown();
 });

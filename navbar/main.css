@@ -28,9 +28,5 @@ body{
 .ui.vertical.menu{
 	margin-top: -15px !important;
 	width: 100%;
-	display: hidden;
-}
-
-.hidden{
 	display: none;
 }

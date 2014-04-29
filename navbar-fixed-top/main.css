@@ -32,7 +32,10 @@ body{
 
 @media (max-width: 767px) {
   	.ui.grid.main{
-  		margin-top: 30px;
+  		margin-top: 70px;
+	}
+	.ui.vertical.menu.navbar{
+		margin-top: 0px !important;
 	}
 }
 
